@@ -382,7 +382,6 @@ img.visible.animate-on-scroll,
     border-top: 1px solid rgba(0, 0, 0, 0.05);
     font-size: 0.75rem;
     color: var(--color-text-muted);
-    text-transform: uppercase;
     letter-spacing: 1px;
 }
 
