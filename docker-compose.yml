@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  abecede-web:
+    container_name: abecede-web
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: abecede-web:latest
+    ports:
+      - "8081:81" # Host Port : Container Port (Change 8080 if needed)
+    restart: always
+    volumes:
+      - ./front:/usr/share/nginx/html # Optional: Mount for hot-reloading changes without rebuild
