@@ -27,9 +27,9 @@
         </div>
         <nav class="main-nav">
             <ul>
-                <li><a href="index.html#brand">Brand</a></li>
-                <li><a href="index.html#product">Product</a></li>
-                <li><a href="gallery.html">Community</a></li>
+                <li><a href="brand.html" data-i18n="nav_brand">Brand</a></li>
+                <li><a href="products.html" data-i18n="nav_product">Product</a></li>
+                <li><a href="gallery.html" data-i18n="nav_moodboard">Moodboard</a></li>
             </ul>
         </nav>
         <div class="header-actions">
@@ -40,9 +40,9 @@
         <nav class="mobile-menu-drawer">
             <button class="close-menu" aria-label="Close Menu">&times;</button>
             <ul>
-                <li><a href="index.html#brand">Brand</a></li>
-                <li><a href="index.html#product">Product</a></li>
-                <li><a href="gallery.html">Community</a></li>
+                <li><a href="brand.html" data-i18n="nav_brand">Brand</a></li>
+                <li><a href="products.html" data-i18n="nav_product">Product</a></li>
+                <li><a href="gallery.html" data-i18n="nav_moodboard">Moodboard</a></li>
             </ul>
         </nav>
     </header>
@@ -50,7 +50,7 @@
     <main>
         <section class="gallery-section">
             <div class="container">
-                <h2 class="animate-on-scroll">Moodboard</h2>
+                <h2 class="animate-on-scroll" data-i18n="gallery_page_title">Moodboard</h2>
                 <div class="masonry-grid">
                     <div class="masonry-item animate-on-scroll"><img src="images/lifestyle_snow.jpg" alt="Winter Mood">
                     </div>
@@ -86,16 +86,16 @@
     <footer class="site-footer">
         <div class="container">
             <div class="footer-info">
-                <p>(주)지너스인터내셔널 &nbsp;&nbsp; 대표이사 : 박제영</p>
-                <p>주소 : 전라남도 순천시 고지1길 64 (우편번호: 57924)</p>
-                <p>Address : 64 Goji 1-gil, Suncheon-si, Jeollanam-do.</p>
-                <p>사업자등록번호 : 369-86-00922</p>
+                <p data-i18n="footer_company">(주)지너스인터내셔널 &nbsp;&nbsp; 대표이사 : 박제영</p>
+                <p data-i18n="footer_address">주소 : 전라남도 순천시 고지1길 64 (우편번호: 57924)</p>
+                <p data-i18n="footer_address_en">Address : 64 Goji 1-gil, Suncheon-si, Jeollanam-do.</p>
+                <p data-i18n="footer_biz_num">사업자등록번호 : 369-86-00922</p>
             </div>
 
             <div class="footer-info">
-                <p>통신판매업신고 : 제 2018 - 전남순천 - 2036 호</p>
-                <p>고객센터 : 070-4250-7298 (평일 11:30 - 17:30)</p>
-                <p>Bank : 기업은행 192-13103504-012 ㈜지너스인터내셔널</p>
+                <p data-i18n="footer_report_num">통신판매업신고 : 제 2018 - 전남순천 - 2036 호</p>
+                <p data-i18n="footer_cust_center">고객센터 : 070-4250-7298 (평일 11:30 - 17:30)</p>
+                <p data-i18n="footer_bank">Bank : 기업은행 192-13103504-012 ㈜지너스인터내셔널</p>
             </div>
 
             <div class="footer-right">
@@ -120,13 +120,14 @@
                         </svg>
                     </a>
                 </div>
-                <p class="copyright">Copyright © 2026 Abecede | Powered by Abecede</p>
-                <a href="#" class="privacy-link">개인정보 처리방침</a>
+                <p class="copyright" data-i18n="footer_copyright">Copyright © 2026 Abecede | Powered by Abecede</p>
+                <a href="#" class="privacy-link" data-i18n="footer_privacy">개인정보 처리방침</a>
             </div>
         </div>
     </footer>
 
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="js/translations.js"></script>
     <script src="js/script.js"></script>
 </body>
 

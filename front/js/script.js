@@ -1,4 +1,97 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Internationalization (i18n) Logic
+    const defaultLang = 'en';
+    let currentLang = localStorage.getItem('abecede_lang') || defaultLang;
+
+    function setLanguage(lang) {
+        if (!translations[lang]) return;
+        currentLang = lang;
+        localStorage.setItem('abecede_lang', lang);
+        document.documentElement.lang = lang; // Update html lang attribute for CSS selectors
+
+        // Update all elements with data-i18n attribute
+        document.querySelectorAll('[data-i18n]').forEach(element => {
+            const key = element.getAttribute('data-i18n');
+            if (translations[lang][key]) {
+                // Handle HTML content (e.g., <br>, &nbsp;)
+                element.innerHTML = translations[lang][key];
+            }
+        });
+
+        // Update active state in switcher
+        // Update active state in switcher UI handled by text update logic
+        const currentBtn = document.querySelector('.lang-current');
+        if (currentBtn) {
+            // Map code to label since we only have code here
+            const langLabels = { 'en': 'EN', 'ko': 'KR', 'ja': 'JP', 'zh': 'CN' };
+            if (langLabels[lang]) {
+                currentBtn.textContent = langLabels[lang];
+            }
+        }
+    }
+
+    // Initialize Language Switcher UI
+    const headerActions = document.querySelector('.header-actions');
+    if (headerActions) {
+        // Create Dropdown Structure
+        const langSwitcher = document.createElement('div');
+        langSwitcher.className = 'lang-switcher';
+
+        // Current Language Button
+        const currentBtn = document.createElement('div');
+        currentBtn.className = 'lang-current';
+        currentBtn.textContent = currentLang.toUpperCase();
+
+        // Dropdown Content
+        const dropdownContent = document.createElement('div');
+        dropdownContent.className = 'lang-dropdown-content';
+
+        const languages = [
+            { code: 'en', label: 'EN' },
+            { code: 'ko', label: 'KR' },
+            { code: 'ja', label: 'JP' },
+            { code: 'zh', label: 'CN' }
+        ];
+
+        languages.forEach(lang => {
+            const option = document.createElement('a');
+            option.className = 'lang-option';
+            option.textContent = lang.label;
+            option.onclick = (e) => {
+                e.preventDefault();
+                setLanguage(lang.code);
+                currentBtn.textContent = lang.label; // Update button text immediately
+                dropdownContent.classList.remove('show'); // Close dropdown
+            };
+            dropdownContent.appendChild(option);
+        });
+
+        // Toggle behavior
+        currentBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            dropdownContent.classList.toggle('show');
+        });
+
+        // Close when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!langSwitcher.contains(e.target)) {
+                dropdownContent.classList.remove('show');
+            }
+        });
+
+        langSwitcher.appendChild(currentBtn);
+        langSwitcher.appendChild(dropdownContent);
+
+        headerActions.appendChild(langSwitcher);
+
+
+    }
+
+    // Initial render
+    if (typeof translations !== 'undefined') {
+        setLanguage(currentLang);
+    } // End i18n logic
+
 
     // Initialize Lenis for smooth scrolling
     const lenis = new Lenis({

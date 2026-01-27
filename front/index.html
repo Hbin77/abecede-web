@@ -30,9 +30,9 @@
         </div>
         <nav class="main-nav">
             <ul>
-                <li><a href="#brand">Brand</a></li>
-                <li><a href="#product">Product</a></li>
-                <li><a href="gallery.html">Community</a></li>
+                <li><a href="brand.html" data-i18n="nav_brand">Brand</a></li>
+                <li><a href="products.html" data-i18n="nav_product">Product</a></li>
+                <li><a href="gallery.html" data-i18n="nav_moodboard">Moodboard</a></li>
             </ul>
         </nav>
         <div class="header-actions">
@@ -43,9 +43,9 @@
         <nav class="mobile-menu-drawer">
             <button class="close-menu" aria-label="Close Menu">&times;</button>
             <ul>
-                <li><a href="#brand">Brand</a></li>
-                <li><a href="#product">Product</a></li>
-                <li><a href="gallery.html">Community</a></li>
+                <li><a href="brand.html" data-i18n="nav_brand">Brand</a></li>
+                <li><a href="products.html" data-i18n="nav_product">Product</a></li>
+                <li><a href="gallery.html" data-i18n="nav_moodboard">Moodboard</a></li>
             </ul>
         </nav>
     </header>
@@ -57,17 +57,18 @@
             </div>
             <div class="hero-text-container">
                 <div class="hero-content animate-on-scroll">
-                    <h1>Scent of<br>Winter</h1>
-                    <p>A relaxing ritual for your weary mind and skin.</p>
-                    <a href="product.html" class="btn-text">Discover More</a>
+                    <h1 data-i18n="hero_title">Scent of<br>Winter</h1>
+                    <p data-i18n="hero_subtitle">A relaxing ritual for your weary mind and skin.</p>
+                    <a href="product.html" class="btn-text" data-i18n="hero_btn">Discover More</a>
                 </div>
             </div>
         </section>
 
         <section id="brand" class="intro-section animate-on-scroll">
             <div class="container">
-                <h2>The Beginning</h2>
-                <p>We focus on the basics. Natural ingredients, scientific formulation, and aesthetic pleasure.</p>
+                <h2 data-i18n="intro_title">The Beginning</h2>
+                <p data-i18n="intro_desc">We focus on the basics. Natural ingredients, scientific formulation, and
+                    aesthetic pleasure.</p>
                 <img src="images/1.jpg" alt="Brand Aesthetics" style="margin-top: 2rem; max-width: 100%; height: auto;">
             </div>
         </section>
@@ -76,22 +77,22 @@
 
         <section id="product" class="product-grid-section">
             <div class="container">
-                <h2 class="animate-on-scroll">Our Collection</h2>
+                <h2 class="animate-on-scroll" data-i18n="collection_title">Our Collection</h2>
                 <div class="grid layout-3-col">
                     <div class="grid-item animate-on-scroll">
                         <img src="images/product_jar_main_frontal.jpg" alt="Cleansing Balm Front View">
-                        <h3>Cleansing Balm</h3>
-                        <p class="price">$45.00</p>
+                        <h3 data-i18n="product_cleansing_balm">Cleansing Balm</h3>
+                        <p class="price" data-i18n="price_tbd">TBD</p>
                     </div>
                     <div class="grid-item animate-on-scroll">
                         <img src="images/lifestyle_hand_holding.jpg" alt="Lifestyle Application">
-                        <h3>Daily Routine</h3>
-                        <a href="guide.html" class="btn-text">View Guide</a>
+                        <h3 data-i18n="product_daily_routine">Daily Routine</h3>
+                        <a href="guide.html" class="btn-text" data-i18n="btn_view_guide">View Guide</a>
                     </div>
                     <div class="grid-item animate-on-scroll">
                         <img src="images/product_texture_scoop.jpg" alt="Rich Texture">
-                        <h3>Texture</h3>
-                        <a href="texture.html" class="btn-text">Learn More</a>
+                        <h3 data-i18n="product_texture">Texture</h3>
+                        <a href="texture.html" class="btn-text" data-i18n="btn_learn_more">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -110,16 +111,16 @@
     <footer class="site-footer">
         <div class="container">
             <div class="footer-info">
-                <p>(주)지너스인터내셔널 &nbsp;&nbsp; 대표이사 : 박제영</p>
-                <p>주소 : 전라남도 순천시 고지1길 64 (우편번호: 57924)</p>
-                <p>Address : 64 Goji 1-gil, Suncheon-si, Jeollanam-do.</p>
-                <p>사업자등록번호 : 369-86-00922</p>
+                <p data-i18n="footer_company">(주)지너스인터내셔널 &nbsp;&nbsp; 대표이사 : 박제영</p>
+                <p data-i18n="footer_address">주소 : 전라남도 순천시 고지1길 64 (우편번호: 57924)</p>
+                <p data-i18n="footer_address_en">Address : 64 Goji 1-gil, Suncheon-si, Jeollanam-do.</p>
+                <p data-i18n="footer_biz_num">사업자등록번호 : 369-86-00922</p>
             </div>
 
             <div class="footer-info">
-                <p>통신판매업신고 : 제 2018 - 전남순천 - 2036 호</p>
-                <p>고객센터 : 070-4250-7298 (평일 11:30 - 17:30)</p>
-                <p>Bank : 기업은행 192-13103504-012 ㈜지너스인터내셔널</p>
+                <p data-i18n="footer_report_num">통신판매업신고 : 제 2018 - 전남순천 - 2036 호</p>
+                <p data-i18n="footer_cust_center">고객센터 : 070-4250-7298 (평일 11:30 - 17:30)</p>
+                <p data-i18n="footer_bank">Bank : 기업은행 192-13103504-012 ㈜지너스인터내셔널</p>
             </div>
 
             <div class="footer-right">
@@ -144,13 +145,14 @@
                         </svg>
                     </a>
                 </div>
-                <p class="copyright">Copyright © 2026 Abecede | Powered by Abecede</p>
-                <a href="#" class="privacy-link">개인정보 처리방침</a>
+                <p class="copyright" data-i18n="footer_copyright">Copyright © 2026 Abecede | Powered by Abecede</p>
+                <a href="#" class="privacy-link" data-i18n="footer_privacy">개인정보 처리방침</a>
             </div>
         </div>
     </footer>
 
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="js/translations.js"></script>
     <script src="js/script.js"></script>
 </body>
 
