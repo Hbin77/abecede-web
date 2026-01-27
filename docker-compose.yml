@@ -8,7 +8,7 @@ services:
       dockerfile: Dockerfile
     image: abecede-web:latest
     ports:
-      - "8081:81" # Host Port : Container Port (Change 8080 if needed)
+      - "8081:80" # Host Port : Container Port (Host 8081 -> Container 80)
     restart: always
     volumes:
       - ./front:/usr/share/nginx/html # Optional: Mount for hot-reloading changes without rebuild
