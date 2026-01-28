@@ -363,4 +363,4 @@ const translations = {
         "privacy_section6_title": "6. 隐私政策变更",
         "privacy_section6_content": "<p>本隐私政策自 2026年 1月 1日起适用。</p>"
     }
-}
+};
