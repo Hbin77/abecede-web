@@ -73,14 +73,29 @@ const translations = {
         "texture_emulsifying_title": "Emulsifying",
         "texture_emulsifying_desc": "Turns milky white with water, rinsing clean.",
         "texture_clean_title": "Clean Formula",
-        "texture_clean_desc": "Free from mineral oils, parabens, and synthetic fragrances. 100% Vegan & Cruelty-Free."
+        "texture_clean_desc": "Free from mineral oils, parabens, and synthetic fragrances. 100% Vegan & Cruelty-Free.",
+
+        "privacy_title": "Privacy Policy",
+        "privacy_subtitle": "Abecede values your privacy.",
+        "privacy_section1_title": "1. Purpose of Collection",
+        "privacy_section1_content": "<p>Jinus International Co., Ltd. (hereinafter referred to as the 'Company') processes personal data for the following purposes. The processed personal data will not be used for any purpose other than the following, and if the purpose of use changes, necessary measures such as obtaining separate consent in accordance with Article 18 of the Personal Information Protection Act will be taken.</p><ul><li><strong>Order Processing & Delivery:</strong> Payment and delivery services for product purchases, order history inquiry.</li><li><strong>Customer Support:</strong> Responding to customer inquiries and handling complaints.</li><li><strong>Marketing & Advertising:</strong> Development of new services (products), provision of customized services, and provision of event and advertising information (with consent).</li></ul>",
+        "privacy_section2_title": "2. Retention & Period of Use",
+        "privacy_section2_content": "<p>The Company processes and retains personal information within the retention and use period pursuant to laws or the retention and use period agreed upon when collecting personal information from the data subject.</p><table class='privacy-table'><thead><tr><th>Items</th><th>Period</th><th>Basis</th></tr></thead><tbody><tr><td>Records on contract or withdrawal of subscription</td><td>5 Years</td><td>Act on Consumer Protection in Electronic Commerce</td></tr><tr><td>Records on payment and supply of goods</td><td>5 Years</td><td>Act on Consumer Protection in Electronic Commerce</td></tr><tr><td>Records on consumer complaints or dispute resolution</td><td>3 Years</td><td>Act on Consumer Protection in Electronic Commerce</td></tr></tbody></table>",
+        "privacy_section3_title": "3. Rights of Users",
+        "privacy_section3_content": "<p>Users may exercise their rights to view, correct, delete, or suspend the processing of their personal information at any time. Rights can be exercised via written written notice, phone, email, or fax, and the Company will take action without delay.</p>",
+        "privacy_section4_title": "4. Destruction of Data",
+        "privacy_section4_content": "<p>The Company destroys personal information without delay when the personal information becomes unnecessary, such as the expiration of the retention period or achievement of the purpose of processing. The procedures and methods are as follows:</p><ul><li><strong>Procedure:</strong> Personal information for which the cause for destruction has occurred is selected and destroyed with the approval of the Company's privacy protection officer.</li><li><strong>Method:</strong> Electronic files are permanently deleted using technical methods that make recovery impossible. Paper documents are shredded or incinerated.</li></ul>",
+        "privacy_section5_title": "5. Data Protection Officer",
+        "privacy_section5_content": "<p>The Company designates a Data Protection Officer to oversee personal information processing and handle user complaints and damage relief related to personal information processing as follows:</p><br><p><strong>Data Protection Officer</strong></p><ul><li>Name: Park Je-young</li><li>Position: CEO</li><li>Contact: 070-4250-7298</li><li>Email: jinus@jinusinter.com</li></ul>",
+        "privacy_section6_title": "6. Changes to Policy",
+        "privacy_section6_content": "<p>This Privacy Policy is effective from January 1, 2026.</p>"
     },
     "ko": {
         "nav_brand": "브랜드",
         "nav_product": "제품",
         "nav_moodboard": "무드보드",
         "hero_title": "겨울의<br>향기",
-        "hero_coming_soon": "커밍 순",
+        "hero_coming_soon": "Coming Soon",
         "hero_subtitle": "지친 마음과 피부를 위한 휴식 의식.",
         "hero_btn": "더 알아보기",
         "intro_title": "시작",
@@ -149,7 +164,22 @@ const translations = {
         "texture_emulsifying_title": "유화 (Emulsifying)",
         "texture_emulsifying_desc": "물과 만나면 우유빛으로 변하여 깨끗하게 씻겨 나갑니다.",
         "texture_clean_title": "클린 포뮬라",
-        "texture_clean_desc": "미네랄 오일, 파라벤, 합성 향료 무첨가. 100% 비건 및 크루얼티 프리."
+        "texture_clean_desc": "미네랄 오일, 파라벤, 합성 향료 무첨가. 100% 비건 및 크루얼티 프리.",
+
+        "privacy_title": "개인정보 처리방침",
+        "privacy_subtitle": "Abecede는 여러분의 개인정보를 소중히 다룹니다.",
+        "privacy_section1_title": "1. 개인정보의 처리 목적",
+        "privacy_section1_content": "<p>(주)지너스인터내셔널(이하 '회사')은 다음의 목적을 위하여 개인정보를 처리합니다. 처리하고 있는 개인정보는 다음의 목적 이외의 용도로는 이용되지 않으며 이용 목적이 변경되는 경우에는 「개인정보 보호법」 제18조에 따라 별도의 동의를 받는 등 필요한 조치를 이행할 예정입니다.</p><ul><li><strong>제품 주문 및 배송:</strong> 상품 구매에 따른 결제 및 배송 서비스 제공, 주문내역 조회</li><li><strong>고객 상담:</strong> 고객의 문의사항에 대한 답변 및 불만 처리</li><li><strong>마케팅 및 광고:</strong> 신규 서비스(제품) 개발 및 맞춤 서비스 제공, 이벤트 및 광고성 정보 제공 (동의 시)</li></ul>",
+        "privacy_section2_title": "2. 개인정보의 처리 및 보유 기간",
+        "privacy_section2_content": "<p>회사는 법령에 따른 개인정보 보유·이용기간 또는 정보주체로부터 개인정보를 수집 시에 동의받은 개인정보 보유·이용기간 내에서 개인정보를 처리·보유합니다.</p><table class='privacy-table'><thead><tr><th>보유 항목</th><th>보유 기간</th><th>근거</th></tr></thead><tbody><tr><td>계약 또는 청약철회 등에 관한 기록</td><td>5년</td><td>전자상거래 등에서의 소비자보호에 관한 법률</td></tr><tr><td>대금결제 및 재화 등의 공급에 관한 기록</td><td>5년</td><td>전자상거래 등에서의 소비자보호에 관한 법률</td></tr><tr><td>소비자의 불만 또는 분쟁처리에 관한 기록</td><td>3년</td><td>전자상거래 등에서의 소비자보호에 관한 법률</td></tr></tbody></table>",
+        "privacy_section3_title": "3. 정보주체와 법정대리인의 권리·의무 및 그 행사방법",
+        "privacy_section3_content": "<p>정보주체는 회사에 대해 언제든지 개인정보 열람·정정·삭제·처리정지 요구 등의 권리를 행사할 수 있습니다. 권리 행사는 회사에 대해 서면, 전화, 전자우편, 모사전송(FAX) 등을 통하여 하실 수 있으며 회사는 이에 대해 지체 없이 조치하겠습니다.</p>",
+        "privacy_section4_title": "4. 개인정보의 파기",
+        "privacy_section4_content": "<p>회사는 개인정보 보유기간의 경과, 처리목적 달성 등 개인정보가 불필요하게 되었을 때에는 지체 없이 해당 개인정보를 파기합니다. 파기절차 및 방법은 다음과 같습니다.</p><ul><li><strong>파기절차:</strong> 파기 사유가 발생한 개인정보를 선정하고, 회사의 개인정보 보호책임자의 승인을 받아 개인정보를 파기합니다.</li><li><strong>파기방법:</strong> 전자적 파일 형태로 기록·저장된 개인정보는 기록을 재생할 수 없도록 파기하며, 종이 문서에 기록·저장된 개인정보는 분쇄기로 분쇄하거나 소각하여 파기합니다.</li></ul>",
+        "privacy_section5_title": "5. 개인정보 보호책임자",
+        "privacy_section5_content": "<p>회사는 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.</p><br><p><strong>개인정보 보호책임자</strong></p><ul><li>성명: 박제영</li><li>직책: 대표이사</li><li>연락처: 070-4250-7298</li><li>이메일: jinus@jinusinter.com</li></ul>",
+        "privacy_section6_title": "6. 개인정보 처리방침 변경",
+        "privacy_section6_content": "<p>이 개인정보 처리방침은 2026년 1월 1일부터 적용됩니다.</p>"
     },
     "ja": {
         "nav_brand": "ブランド",
@@ -225,7 +255,22 @@ const translations = {
         "texture_emulsifying_title": "乳化 (Emulsifying)",
         "texture_emulsifying_desc": "水と混ざると乳白色に変わり、きれいに洗い流せます。",
         "texture_clean_title": "クリーンフォーミュラ",
-        "texture_clean_desc": "鉱物油、パラベン、合成香料不使用。100%ヴィーガン＆クルエルティフリー."
+        "texture_clean_desc": "鉱物油、パラベン、合成香料不使用。100%ヴィーガン＆クルエルティフリー.",
+
+        "privacy_title": "個人情報処理方針",
+        "privacy_subtitle": "Abecedeは、お客様の個人情報を大切に取り扱います。",
+        "privacy_section1_title": "1. 個人情報の処理目的",
+        "privacy_section1_content": "<p>(株)Jinus International（以下「会社」）は、以下の目的のために個人情報を処理します。処理している個人情報は、以下の目的以外の用途には利用されず、利用目的が変更される場合には、「個人情報保護法」第18条に基づき別途同意を得るなど必要な措置を講じる予定です。</p><ul><li><strong>製品の注文および配送:</strong> 商品購入に伴う決済および配送サービスの提供、注文履歴の照会</li><li><strong>顧客相談:</strong> 顧客の問い合わせに対する回答および苦情処理</li><li><strong>マーケティングおよび広告:</strong> 新規サービス（製品）の開発およびカスタマイズサービスの提供、イベントおよび広告情報の提供（同意時）</li></ul>",
+        "privacy_section2_title": "2. 個人情報の処理および保有期間",
+        "privacy_section2_content": "<p>会社は、法令に基づく個人情報の保有・利用期間または情報主体から個人情報を収集する際に同意を得た個人情報の保有・利用期間内で個人情報を処理・保有します。</p><table class='privacy-table'><thead><tr><th>保有項目</th><th>保有期間</th><th>根拠</th></tr></thead><tbody><tr><td>契約または請負撤回等に関する記録</td><td>5年</td><td>電子商取引等における消費者保護に関する法律</td></tr><tr><td>代金決済および財貨等の供給に関する記録</td><td>5年</td><td>電子商取引等における消費者保護に関する法律</td></tr><tr><td>消費者の苦情または紛争処理に関する記録</td><td>3年</td><td>電子商取引等における消費者保護に関する法律</td></tr></tbody></table>",
+        "privacy_section3_title": "3. 情報主体と法定代理人の権利・義務およびその行使方法",
+        "privacy_section3_content": "<p>情報主体は、会社に対していつでも個人情報の閲覧・訂正・削除・処理停止の要求等の権利を行使することができます。権利行使は、会社に対して書面、電話、電子メール、FAX等を通じて行うことができ、会社はこれに対して遅滞なく措置を講じます。</p>",
+        "privacy_section4_title": "4. 個人情報の破棄",
+        "privacy_section4_content": "<p>会社は、個人情報の保有期間の経過、処理目的の達成など、個人情報が不要となったときは、遅滞なく当該個人情報を破棄します。破棄手続きおよび方法は以下の通りです。</p><ul><li><strong>破棄手続き:</strong> 破棄事由が発生した個人情報を選定し、会社の個人情報保護責任者の承認を得て個人情報を破棄します。</li><li><strong>破棄方法:</strong> 電子ファイル形式で記録・保存された個人情報は、記録を再生できないように破棄し、紙文書に記録・保存された個人情報は、シュレッダーで粉砕するか焼却して破棄します。</li></ul>",
+        "privacy_section5_title": "5. 個人情報保護責任者",
+        "privacy_section5_content": "<p>会社は、個人情報の処理に関する業務を総括して責任を負い、個人情報の処理に関連する情報主体の苦情処理および被害救済などのために、以下のように個人情報保護責任者を指定しています。</p><br><p><strong>個人情報保護責任者</strong></p><ul><li>氏名: Park Je-young</li><li>役職: 代表取締役</li><li>連絡先: 070-4250-7298</li><li>Email: jinus@jinusinter.com</li></ul>",
+        "privacy_section6_title": "6. 個人情報処理方針の変更",
+        "privacy_section6_content": "<p>この個人情報処理方針は、2026年1月1日から適用されます。</p>"
     },
     "zh": {
         "nav_brand": "品牌",
@@ -301,6 +346,21 @@ const translations = {
         "texture_emulsifying_title": "乳化 (Emulsifying)",
         "texture_emulsifying_desc": "遇水变白，冲洗干净。",
         "texture_clean_title": "纯净配方",
-        "texture_clean_desc": "不含矿物油、对羟基苯甲酸酯和合成香料。100% 纯素且无残忍。"
+        "texture_clean_desc": "不含矿物油、对羟基苯甲酸酯和合成香料。100% 纯素且无残忍。",
+
+        "privacy_title": "隐私政策",
+        "privacy_subtitle": "Abecede 重视您的隐私。",
+        "privacy_section1_title": "1. 个人信息处理目的",
+        "privacy_section1_content": "<p>(株)Jinus International（以下简称“公司”）为了以下目的处理个人信息。处理的个人信息不会用于以下目的以外的用途，如果利用目的发生变更，将根据《个人信息保护法》第18条采取另行征求同意等必要措施。</p><ul><li><strong>产品订购及配送:</strong> 提供商品购买相关的结算及配送服务，查询订单明细</li><li><strong>客户咨询:</strong> 对客户咨询事项的答复及投诉处理</li><li><strong>营销及广告:</strong> 开发新服务（产品）及提供定制服务，提供活动及广告性信息（同意时）</li></ul>",
+        "privacy_section2_title": "2. 个人信息处理及保留期限",
+        "privacy_section2_content": "<p>公司在根据法令保留、利用个人信息的期限或从信息主体收集个人信息时同意的个人信息保留、利用期限内处理、保留个人信息。</p><table class='privacy-table'><thead><tr><th>保留项目</th><th>保留期限</th><th>依据</th></tr></thead><tbody><tr><td>关于合同或撤回认购等的记录</td><td>5年</td><td>关于电子商务等消费者保护的法律</td></tr><tr><td>关于货款结算及货物等供应的记录</td><td>5年</td><td>关于电子商务等消费者保护的法律</td></tr><tr><td>关于消费者投诉或纠纷处理的记录</td><td>3年</td><td>关于电子商务等消费者保护的法律</td></tr></tbody></table>",
+        "privacy_section3_title": "3. 信息主体与法定代理人的权利、义务及其行使方法",
+        "privacy_section3_content": "<p>信息主体可以随时向公司行使查阅、更正、删除、停止处理个人信息等权利。权利行使可以通过书面、电话、电子邮件、传真（FAX）等方式向公司提出，公司将对此立即采取措施。</p>",
+        "privacy_section4_title": "4. 个人信息的销毁",
+        "privacy_section4_content": "<p>公司在个人信息保留期限届满、处理目的达成等个人信息变得不需要时，将立即销毁该个人信息。销毁程序及方法如下。</p><ul><li><strong>销毁程序:</strong> 选定发生销毁事由的个人信息，并在获得公司个人信息保护负责人的批准后销毁个人信息。</li><li><strong>销毁方法:</strong> 以电子文件形式记录、存储的个人信息将以无法再生的方式销毁，记录、存储在纸质文件中的个人信息将通过碎纸机粉碎或焚烧销毁。</li></ul>",
+        "privacy_section5_title": "5. 个人信息保护负责人",
+        "privacy_section5_content": "<p>公司为了统筹负责个人信息处理相关业务，并处理与个人信息处理相关的信息主体的投诉及受害救济等，指定了如下个人信息保护负责人。</p><br><p><strong>个人信息保护负责人</strong></p><ul><li>姓名: Park Je-young</li><li>职位: 代表理事</li><li>联系方式: 070-4250-7298</li><li>Email: jinus@jinusinter.com</li></ul>",
+        "privacy_section6_title": "6. 隐私政策变更",
+        "privacy_section6_content": "<p>本隐私政策自 2026年 1月 1日起适用。</p>"
     }
-};
+}
