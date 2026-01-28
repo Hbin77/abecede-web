@@ -17,7 +17,7 @@ const translations = {
         "btn_learn_more": "Learn More",
         "footer_company": "Jinus International Co., Ltd. &nbsp;&nbsp; CEO: Park Je-young",
         "footer_address": "Address: 64 Goji 1-gil, Suncheon-si, Jeollanam-do.",
-        "footer_address_en": "Address : 64 Goji 1-gil, Suncheon-si, Jeollanam-do.",
+        "footer_address_en": "",
         "footer_biz_num": "Business Reg. No: 369-86-00922",
         "footer_report_num": "Online Biz Report: 2018-Jeonnam Suncheon-2036",
         "footer_cust_center": "Customer Center: 070-4250-7298 (Weekdays 11:30 - 17:30)",

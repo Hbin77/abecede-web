@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Update all elements with data-i18n attribute
         document.querySelectorAll('[data-i18n]').forEach(element => {
             const key = element.getAttribute('data-i18n');
-            if (translations[lang][key]) {
+            if (translations[lang][key] !== undefined) {
                 // Handle HTML content (e.g., <br>, &nbsp;)
                 element.innerHTML = translations[lang][key];
             }
