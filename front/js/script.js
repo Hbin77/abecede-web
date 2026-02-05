@@ -13,8 +13,15 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('[data-i18n]').forEach(element => {
             const key = element.getAttribute('data-i18n');
             if (translations[lang][key] !== undefined) {
-                // Handle HTML content (e.g., <br>, &nbsp;)
-                element.innerHTML = translations[lang][key];
+                const text = translations[lang][key];
+                // Hide element if translation is empty to prevent layout shifts
+                if (text === "") {
+                    element.style.display = 'none';
+                } else {
+                    element.style.display = ''; // Restore default display
+                    // Handle HTML content (e.g., <br>, &nbsp;)
+                    element.innerHTML = text;
+                }
             }
         });
 
